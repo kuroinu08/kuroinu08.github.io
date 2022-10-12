@@ -5,7 +5,7 @@
   --color-primary: #bc7305;
   --color-secondary: #8c088e;
   --color-accent: #fbbb5c;
-  --color-greay: #f1f1f1;
+  --color-grey: #f1f1f1;
   --color-headings: #000;
   --color-body: #2e2e2e;
   --color-border: #8c088e;
@@ -200,12 +200,12 @@ h3 {
 }
 
 .block--grey {
-  background: var(--color-greay);
+  background: var(--color-grey);
   color: #2e2e2e;
 }
 
 .block__content--grey {
-  background: var(--color-greay);
+  background: var(--color-grey);
   color: #2e2e2e;
 }
 
@@ -469,4 +469,67 @@ a {
 
 .bronchitis .link-arrow {
   float: right;
+}
+
+/* Full Page Section  */
+.full-page__title {
+  font-size: 4.8rem;
+  margin: 0;
+}
+
+.full-page__subtitle {
+  color: #ccc;
+  font-size: 2rem;
+  margin: 0;
+  line-height: 1;
+}
+
+.full-page__paragraph {
+  padding: 5rem 0;
+}
+
+/* Causes  */
+.causes {
+  padding-bottom: 6rem;
+}
+
+.causes__header {
+  margin-bottom: 5rem;
+}
+
+.causes__images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.causes__img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 6px 7px 14px 2px var(--color-primary);
+  -webkit-box-shadow: 6px 7px 14px 2px var(--color-primary);
+}
+
+/* Complications  */
+.complication__images {
+  margin-top: 6rem;
+}
+
+.complication__img {
+  height: 343px;
+}
+
+/* Prevention  */
+.prevention__images {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prevention__img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 6px 7px 14px 2px #2e2e2e;
+  -webkit-box-shadow: 6px 7px 14px 2px #2e2e2e;
 }
