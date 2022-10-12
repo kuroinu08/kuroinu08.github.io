@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Main Stylesheet  -->
     <link rel="stylesheet" href="./styles/main.css" />
     <title>Respiratory System</title>
@@ -36,11 +38,12 @@
     <!-- Hero Section  -->
     <section class="block hero">
       <div class="grid container grid--1x2">
-        <header class="block__header hero__content">
+        <header class="block__header hero__content" data-aos="fade-right">
           <span class="block__title hero__title">The Human</span>
           <h1 class="block__heading">Respiratory System</h1>
         </header>
         <img
+          data-aos="fade-left"
           class="hero__image"
           src="assets/img/hero_banner.jpg"
           alt="Banner"
@@ -49,7 +52,7 @@
     </section>
 
     <!-- Transition Block  -->
-    <section class="block transition">
+    <section class="block transition" data-aos="fade-up">
       <div class="transition__arrow">
         <span class="material-icons"> keyboard_double_arrow_down </span>
       </div>
@@ -71,7 +74,10 @@
         </header>
       </div>
 
-      <div class="block__content block__content--grey overview__content">
+      <div
+        class="block__content block__content--grey overview__content"
+        data-aos="zoom-in-up"
+      >
         <p class="container">
           is the network of organs and tissues that help you breathe. This
           system helps your body absorb oxygen from the air so your organs can
@@ -97,7 +103,7 @@
         </header>
         <!-- Showcase  -->
         <article class="grid grid--1x2 feature">
-          <div class="feature__content">
+          <div class="feature__content" data-aos="zoom-in-left">
             <h3 class="feature__heading">Allows you to talk and to smell.</h3>
             <p>
               Inhalation and exhalation are how your body brings in oxygen and
@@ -114,13 +120,14 @@
             </p>
           </div>
           <img
+            data-aos="zoom-in-right"
             src="assets/img/two_men_talking.jpg"
             alt="Two men talking"
             class="feature__img"
           />
         </article>
         <article class="grid grid--1x2 feature">
-          <div class="feature__content">
+          <div class="feature__content" data-aos="zoom-in-right">
             <h3 class="feature__heading">
               Warms air to match your body temperature
             </h3>
@@ -139,13 +146,14 @@
             </p>
           </div>
           <img
+            data-aos="zoom-in-left"
             src="assets/img/temperature.jpg"
             alt="Warm body temparature"
             class="feature__img"
           />
         </article>
         <article class="grid grid--1x2 feature">
-          <div class="feature__content">
+          <div class="feature__content" data-aos="zoom-in-left">
             <h3 class="feature__heading">Removes waste gases.</h3>
             <p>
               Removes waste gases, including carbon dioxide, from the body when
@@ -162,6 +170,7 @@
             </p>
           </div>
           <img
+            data-aos="zoom-in-right"
             src="assets/img/woman_breathing.jpg"
             alt="Woman Breathing"
             class="feature__img"
@@ -171,7 +180,7 @@
     </section>
 
     <!-- Fact Section  -->
-    <section class="block block--accent fact">
+    <section class="block block--accent fact" data-aos="flip-left">
       <div class="container fact__container">
         <header class="block__header">
           <h3 class="block__heading fact__heading">
@@ -199,6 +208,7 @@
 
     <!-- Bronchitis Section  -->
     <section
+      data-aos="flip-right"
       #bronchitis
       id="bronchitis"
       class="block block--dark block--skewed-right bronchitis"
@@ -250,7 +260,7 @@
           </p>
         </header>
 
-        <div class="parts__content">
+        <div class="parts__content" data-aos="fade-up">
           <img
             src="assets/img/respiratory_system_parts.png"
             alt="Parts of the Respiratory System"
@@ -272,7 +282,7 @@
     <!-- Dark Block  -->
     <div class="block block--dark">
       <article class="grid grid--1x2 container main-parts__container">
-        <div class="main-parts__content">
+        <div class="main-parts__content" data-aos="fade-right">
           <h3 class="main-parts__heading">Nostrils</h3>
           <p>
             The first part of the respiratory system are the nostrils. These are
@@ -284,6 +294,7 @@
           </p>
         </div>
         <img
+          data-aos="fade-left"
           src="assets/img/parts/nostrils.jpg"
           alt="Nostrils"
           class="main-parts__img"
@@ -291,7 +302,7 @@
       </article>
 
       <article class="grid grid--1x2 container main-parts__container">
-        <div class="main-parts__content">
+        <div class="main-parts__content" data-aos="fade-right">
           <h3 class="main-parts__heading">Mouth</h3>
           <p>
             Although the mouth is a component of the respiratory system, it
@@ -302,6 +313,7 @@
           </p>
         </div>
         <img
+          data-aos="fade-up-left"
           src="assets/img/parts/mouth.jpg"
           alt="Mouth"
           class="main-parts__img"
@@ -309,7 +321,7 @@
       </article>
 
       <article class="grid grid--1x2 container main-parts__container">
-        <div class="main-parts__content">
+        <div class="main-parts__content" data-aos="fade-right">
           <h3 class="main-parts__heading">Pharynx</h3>
           <p>
             The pharynx is the second significant structure of the respiratory
@@ -321,6 +333,7 @@
           </p>
         </div>
         <img
+          data-aos="fade-left"
           src="assets/img/parts/pharynx.png"
           alt="Pharynx"
           class="main-parts__img"
@@ -328,7 +341,7 @@
       </article>
 
       <article class="grid grid--1x2 container main-parts__container">
-        <div class="main-parts__content">
+        <div class="main-parts__content" data-aos="fade-right">
           <h3 class="main-parts__heading">Larynx</h3>
           <p>
             Another tubular component of the respiratory system, the larynx,
@@ -339,6 +352,7 @@
           </p>
         </div>
         <img
+          data-aos="fade-left"
           src="assets/img/parts/larynx.png"
           alt="Larynx"
           class="main-parts__img"
@@ -349,7 +363,7 @@
     <!-- White Block  -->
     <div class="block">
       <article class="grid grid--1x2 container main-parts__container">
-        <div class="main-parts__content">
+        <div class="main-parts__content" data-aos="fade-right">
           <h3 class="main-parts__heading">Trachea</h3>
           <p>
             The trachea is a tube that originates in the larynx and is still
@@ -361,6 +375,7 @@
           </p>
         </div>
         <img
+          data-aos="fade-left"
           src="assets/img/parts/trachea.png"
           alt="Nostrils"
           class="main-parts__img"
@@ -368,7 +383,7 @@
       </article>
 
       <article class="grid grid--1x2 container main-parts__container">
-        <div class="main-parts__content">
+        <div class="main-parts__content" data-aos="fade-right">
           <h3 class="main-parts__heading">Lungs</h3>
           <p>
             The lungs are the primary organs in charge of respiration in the
@@ -380,6 +395,7 @@
           </p>
         </div>
         <img
+          data-aos="fade-left"
           src="assets/img/parts/human_lungs.png"
           alt="Nostrils"
           class="main-parts__img"
@@ -387,7 +403,7 @@
       </article>
 
       <article class="grid grid--1x2 container main-parts__container">
-        <div class="main-parts__content">
+        <div class="main-parts__content" data-aos="fade-right">
           <h3 class="main-parts__heading">Lobes</h3>
           <p>
             Each one of the lungs is split into portions called lobes, and these
@@ -399,6 +415,7 @@
           </p>
         </div>
         <img
+          data-aos="fade-left"
           src="assets/img/parts/lobes.png"
           alt="Nostrils"
           class="main-parts__img"
@@ -406,7 +423,7 @@
       </article>
 
       <article class="grid grid--1x2 container main-parts__container">
-        <div class="main-parts__content">
+        <div class="main-parts__content" data-aos="fade-right">
           <h3 class="main-parts__heading">Bronchi</h3>
           <p>
             After entering the lungs, the two extensions of the trachea are
@@ -419,6 +436,7 @@
           </p>
         </div>
         <img
+          data-aos="fade-left"
           src="assets/img/parts/bronchi.jpg"
           alt="Nostrils"
           class="main-parts__img"
@@ -429,7 +447,7 @@
     <!-- Accent Block  -->
     <div class="block block--accent">
       <article class="grid grid--1x2 container main-parts__container">
-        <div class="main-parts__content">
+        <div class="main-parts__content" data-aos="fade-right">
           <h3 class="main-parts__heading">Bronchioles</h3>
           <p>
             The two bronchi give birth to a number of branches, which are known
@@ -442,6 +460,7 @@
           </p>
         </div>
         <img
+          data-aos="fade-left"
           src="assets/img/parts/bronchioles.png"
           alt="Bronchioles"
           class="main-parts__img"
@@ -449,7 +468,7 @@
       </article>
 
       <article class="grid grid--1x2 container main-parts__container">
-        <div class="main-parts__content">
+        <div class="main-parts__content" data-aos="fade-right">
           <h3 class="main-parts__heading">Pulmonari Alveoli</h3>
           <p>
             If we consider the lungs to be the core of the respiratory system,
@@ -461,6 +480,7 @@
           </p>
         </div>
         <img
+          data-aos="fade-left"
           src="assets/img/parts/pulmonari_alveoli.png"
           alt="Pulmonari Alveoli"
           class="main-parts__img"
@@ -468,7 +488,7 @@
       </article>
 
       <article class="grid grid--1x2 container main-parts__container">
-        <div class="main-parts__content">
+        <div class="main-parts__content" data-aos="fade-right">
           <h3 class="main-parts__heading">Pleura</h3>
           <p>
             The pleura is a membrane made of connective tissue that borders each
@@ -479,6 +499,7 @@
           </p>
         </div>
         <img
+          data-aos="fade-left"
           src="assets/img/parts/pleura.PNG"
           alt="Pleura"
           class="main-parts__img"
@@ -486,7 +507,7 @@
       </article>
 
       <article class="grid grid--1x2 container main-parts__container">
-        <div class="main-parts__content">
+        <div class="main-parts__content" data-aos="fade-right">
           <h3 class="main-parts__heading">Diaphragm</h3>
           <p>
             We are now going to move on from the lung and examine another
@@ -499,6 +520,7 @@
           </p>
         </div>
         <img
+          data-aos="fade-left"
           src="assets/img/parts/diaphragm.PNG"
           alt="Diaphragm"
           class="main-parts__img"
@@ -506,6 +528,49 @@
       </article>
     </div>
 
-    <footer class="footer">All rights reserved. 2022</footer>
+    <footer class="block footer">
+      <div class="container grid footer__sections">
+        <section class="footer__section">
+          <header class="footer__header">
+            <a href="/">
+              <h2 class="footer__heading">Home</h2>
+            </a>
+          </header>
+        </section>
+
+        <section class="footer__section">
+          <header class="footer__header">
+            <a href="/about.html">
+              <h2 class="footer__heading">About</h2>
+            </a>
+          </header>
+        </section>
+
+        <section class="footer__section">
+          <header class="footer__header">
+            <a href="/bronchitis-full-page.html">
+              <h2 class="footer__heading">Disease</h2>
+            </a>
+          </header>
+        </section>
+
+        <section class="footer__section">
+          <header class="footer__header">
+            <a href="/team.html">
+              <h2 class="footer__heading">Team</h2>
+            </a>
+          </header>
+        </section>
+        <section class="footer__brand">
+          <img src="assets/img/logo.png" alt="LOGO" />
+          <p class="footer__copyright">All rights reserved 2022</p>
+        </section>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
