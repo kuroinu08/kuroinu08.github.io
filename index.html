@@ -15,17 +15,248 @@
     <title>Respiratory System</title>
   </head>
   <body>
-    <section class="block container">
-      <header class="block__header">
-        <h2 class="block__heading">
-          What does the
-          <span class="repiratory-system-title">Respiratory System</span> do?
-        </h2>
-        <p class="block__paragraph">
-          The respiratory system has many functions. Besides helping you inhale
-          (breathe in) and exhale (breathe out), it also serve as:
+    <!-- Navigation Header -->
+    <header>
+      <nav class="nav collapsible container">
+        <a class="nav__brand" href="/">
+          <img src="assets/img/logo.png" alt="STEM Logo " />
+        </a>
+        <svg class="icon icon--white nav__toggler">
+          <use xlink:href="./assets/img/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item active"><a href="#">Home</a></li>
+          <li class="nav__item"><a href="#">About</a></li>
+          <li class="nav__item"><a href="#bronchitis">Disease</a></li>
+          <li class="nav__item"><a href="#">Team</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section  -->
+    <section class="block hero">
+      <div class="grid container grid--1x2">
+        <header class="block__header hero__content">
+          <span class="block__title hero__title">The Human</span>
+          <h1 class="block__heading">Respiratory System</h1>
+        </header>
+        <img
+          class="hero__image"
+          src="assets/img/hero_banner.jpg"
+          alt="Banner"
+        />
+      </div>
+    </section>
+
+    <!-- Transition Block  -->
+    <section class="block transition">
+      <div class="transition__arrow">
+        <span class="material-icons"> keyboard_double_arrow_down </span>
+      </div>
+
+      <button type="button" class="btn btn--primary btn--transition">
+        Read More
+      </button>
+    </section>
+
+    <!-- Overview  -->
+    <section class="block overview">
+      <div class="container">
+        <header class="block__header">
+          <h2 class="block__heading">
+            What is the
+            <span class="repiratory-system-title">Respiratory System</span>?
+          </h2>
+          <div class="accent-border"></div>
+        </header>
+      </div>
+
+      <div class="block__content block__content--grey overview__content">
+        <p class="container">
+          is the network of organs and tissues that help you breathe. This
+          system helps your body absorb oxygen from the air so your organs can
+          work. It also cleans waste gases, such as carbon dioxide, from your
+          blood. Common problems include allergies, diseases or infections.
         </p>
-      </header>
+      </div>
+    </section>
+
+    <!-- Functionality  -->
+    <section class="block">
+      <div class="container">
+        <header class="block__header">
+          <h2 class="block__heading">
+            What does the
+            <span class="repiratory-system-title">Respiratory System</span> do?
+          </h2>
+          <div class="accent-border"></div>
+          <p class="block__paragraph">
+            The respiratory system has many functions. Besides helping you
+            inhale (breathe in) and exhale (breathe out), it also serve as:
+          </p>
+        </header>
+        <!-- Showcase  -->
+        <article class="grid grid--1x2 feature">
+          <div class="feature__content">
+            <h3 class="feature__heading">Allows you to talk and to smell.</h3>
+            <p>
+              Inhalation and exhalation are how your body brings in oxygen and
+              gets rid of carbon dioxide. The process gets help from a large
+              dome-shaped muscle under your lungs called the diaphragm.
+            </p>
+            <p>
+              When you breathe in, your diaphragm pulls downward, creating a
+              vacuum that causes a rush of air into your lungs.
+            </p>
+            <p>
+              The opposite happens with exhalation: Your diaphragm relaxes
+              upward, pushing on your lungs, allowing them to deflate.
+            </p>
+          </div>
+          <img
+            src="assets/img/two_men_talking.jpg"
+            alt="Two men talking"
+            class="feature__img"
+          />
+        </article>
+        <article class="grid grid--1x2 feature">
+          <div class="feature__content">
+            <h3 class="feature__heading">
+              Warms air to match your body temperature
+            </h3>
+            <p>
+              Warms air to match your body temperature and moisturizes it to the
+              humidity level your body needs.
+            </p>
+            <p>
+              The body keeps the lungs moist, and as drier air enters the lungs,
+              they naturally draw moisture out.
+            </p>
+            <p>
+              As a result, the humidification that your lungs and respiratory
+              passages perform makes the air breathable and contributes to the
+              slow but steady loss of moisture from the body.
+            </p>
+          </div>
+          <img
+            src="assets/img/temperature.jpg"
+            alt="Warm body temparature"
+            class="feature__img"
+          />
+        </article>
+        <article class="grid grid--1x2 feature">
+          <div class="feature__content">
+            <h3 class="feature__heading">Removes waste gases.</h3>
+            <p>
+              Removes waste gases, including carbon dioxide, from the body when
+              you exhale.
+            </p>
+            <p>
+              Every cell in your body needs oxygen to live. The air we breathe
+              contains oxygen and other gases. The respiratory system's main job
+              is to move fresh air into your body while removing waste gases.
+            </p>
+            <p>
+              Your lungs and respiratory system automatically perform this vital
+              process, called gas exchange.
+            </p>
+          </div>
+          <img
+            src="assets/img/woman_breathing.jpg"
+            alt="Woman Breathing"
+            class="feature__img"
+          />
+        </article>
+      </div>
+    </section>
+
+    <!-- Fact Section  -->
+    <section class="block block--accent fact">
+      <div class="container fact__container">
+        <header class="block__header">
+          <h3 class="block__heading fact__heading">
+            "You lose a lot of water just by breathing"
+          </h3>
+          <p class="fact__paragraph">
+            Breathing allows you to take in the oxygen your cells need and expel
+            carbon-dioxide waste. But when you exhale, you also breathe out a
+            lot of water.
+          </p>
+          <p class="fact__paragraph">
+            When at rest, humans exhale up to 17.5 milliliters (0.59 fluid
+            ounces) of water per hour, according to a 2012 article in the
+            journal Polish Pneumonology and Allergology. But you lose about four
+            times that amount when you exercise, the study said.
+          </p>
+        </header>
+        <img
+          class="fact__logo"
+          src="assets/svg/did_you_know.svg"
+          alt="Did you know?"
+        />
+      </div>
+    </section>
+
+    <!-- Bronchitis Section  -->
+    <section
+      #bronchitis
+      id="bronchitis"
+      class="block block--dark block--skewed-right bronchitis"
+    >
+      <div class="container">
+        <header class="block__header">
+          <h3 class="block__heading">
+            One of the major disease involving the <br />
+            <span class="repiratory-system-title">Respiratory System</span> is:
+          </h3>
+        </header>
+
+        <div class="bronchitis__content">
+          <header class="bronchitis__header">
+            <h4 class="bronchitis__title">Bronchitis</h4>
+            <p class="bronchitis__subtitle">bron·​chi·​tis | brän-ˈkī-təs</p>
+          </header>
+
+          <p class="bronchitis__paragraph">
+            Bronchitis arises whenever the bronchial tubes that supply air to
+            the human lungs get inflamed and enlarged; it is merely a swelling
+            in the airways of a human (bronchi). The Bronchi link the trachea
+            (windpipe) to the human lungs' small air sacs (alveoli) and the body
+            absorbs oxygen through the alveolar walls. Consequently, Bronchitis
+            causes the bronchi to expand and be filled with sticky mucus; this
+            makes breathing difficult and prompts a person to cough. Bronchitis
+            may be either
+            <span class="repiratory-system-title">acute</span> or
+            <span class="repiratory-system-title">chronic</span>.
+          </p>
+          <a href="./bronchitis-full-page.html" class="link-arrow">Read more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Parts  -->
+    <section class="block parts">
+      <div class="container">
+        <header class="parts__header">
+          <h2 class="parts__heading">
+            What are the parts of the
+            <span class="respiratory-system-title">Respiratory System</span>?
+          </h2>
+          <div class="accent-border"></div>
+          <p>
+            The respiratory system has many different parts that work together
+            to help you breathe. Each group of parts has many separate
+            components.
+          </p>
+        </header>
+
+        <div class="parts__content">
+          <img
+            src="assets/img/respiratory_system_parts.png"
+            alt="Parts of the Respiratory System"
+          />
+        </div>
+      </div>
     </section>
   </body>
 </html>

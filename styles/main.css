@@ -68,7 +68,7 @@ h3 {
   width: 15rem;
 }
 
-/* Nabar  */
+/* Navbar  */
 .nav {
   align-items: center;
   display: flex;
@@ -112,8 +112,8 @@ h3 {
 }
 
 .nav__brand {
-  transform: translateY(5px);
-  width: 150px;
+  transform: translateY(10px);
+  width: 96px;
 }
 
 @media screen and (min-width: 768px) {
@@ -142,42 +142,6 @@ h3 {
 
 .block__header {
   margin-bottom: 4rem;
-}
-
-.block__header .hero__title {
-  color: rgba(46, 46, 46, 0.6);
-  font-weight: 500;
-  font-size: 4rem;
-  line-height: 1 !important;
-  text-transform: uppercase;
-}
-
-.block__header .hero__heading-one {
-  background: -webkit-linear-gradient(
-    91.53deg,
-    #000000 -1.27%,
-    #8c088e 112.26%
-  );
-}
-
-.block__header .hero__heading-two {
-  background: -webkit-linear-gradient(
-    91.53deg,
-    #000000 -1.27%,
-    #8c088e 112.26%
-  );
-}
-
-.block__header .hero__heading-one,
-.block__header .hero__heading-two {
-  background-clip: text;
-  font-size: 80px;
-  font-weight: 700;
-  margin-bottom: 0 !important;
-  line-height: 1 !important;
-  text-transform: uppercase;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .block__heading {
@@ -226,14 +190,59 @@ h3 {
 }
 
 /* Hero  */
-.hero__tagline {
-  color: #b9c3cf;
-  font-size: 2rem;
-  letter-spacing: 1px;
-  margin: 2rem 0 5rem;
+.hero .block__header {
+  text-align: center;
+}
+
+.hero .block__heading {
+  background: -webkit-linear-gradient(
+    91.53deg,
+    #000000 -1.27%,
+    #8c088e 112.26%
+  );
+
+  background-clip: text;
+  font-weight: 700;
+  line-height: 1 !important;
+  margin-bottom: 0 !important;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero__title {
+  color: rgba(46, 46, 46, 0.6);
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 1 !important;
+  text-transform: uppercase;
+}
+
+.hero__heading-one {
+  background: -webkit-linear-gradient(
+    91.53deg,
+    #000000 -1.27%,
+    #8c088e 112.26%
+  );
+}
+
+.hero__heading-two {
+  background: -webkit-linear-gradient(
+    95.51deg,
+    #000000 -12.43%,
+    #8c088e 136.02%
+  );
 }
 
 @media screen and (min-width: 768px) {
+  .hero .block__header {
+    text-align: left;
+  }
+
+  .hero .block__heading {
+    font-size: 8rem;
+  }
+
   .hero__content {
     text-align: left;
     align-self: center;
@@ -372,6 +381,7 @@ a {
 
 /* Transition Block  */
 .transition {
+  padding: 4rem 0;
   text-align: center;
 }
 
@@ -396,8 +406,11 @@ a {
 }
 
 .overview {
-  /* height: 250px; */
   border-radius: var(--border-radius);
+}
+
+.overview .block__header {
+  padding: 0 2rem;
 }
 
 .block.overview {
@@ -410,40 +423,68 @@ a {
 
 /* Facts  */
 .fact {
-  height: 479px;
-  border-radius: 85px 85px 0px 0px;
+  height: 500px;
+  border-radius: 30px 30px 0px 0px;
 }
 
 .fact__container {
   position: relative;
-  padding: 4.2rem 0;
+  padding: 3.2rem 0;
 }
 
 .fact__heading {
-  font-size: 4.8rem;
-  line-height: 72px;
+  font-size: 3.2rem;
+  text-align: center;
 }
 
 .fact__paragraph {
-  font-size: 2.4rem;
-  line-height: 36px;
+  font-size: 1.7rem;
+  font-weight: 500;
 }
 
 .fact__logo {
   position: absolute;
-  top: -25rem;
-  left: -10rem;
-  width: 367px;
-  height: 346px;
+  top: -20rem;
+  left: -5rem;
+  width: 270px;
+  height: 300px;
+}
+
+@media screen and (min-width: 769px) {
+  .fact {
+    border-radius: 85px 85px 0px 0px;
+  }
+
+  .fact__heading {
+    font-size: 4.8rem;
+    line-height: 72px;
+  }
+
+  .fact__paragraph {
+    font-size: 2.4rem;
+    font-weight: 400;
+  }
+
+  .fact__container {
+    padding: 4.2rem 0;
+  }
+
+  .fact__logo {
+    top: -25rem;
+    left: -10rem;
+    width: 367px;
+    height: 346px;
+  }
 }
 
 .block__header .fact__heading {
   color: #fff;
 }
 
+/* Bronchitis Section  */
 .bronchitis .block__heading {
   font-weight: 400;
-  font-size: 4.8rem;
+  font-size: 3.5rem;
 }
 
 .bronchitis .repiratory-system-title {
@@ -456,7 +497,7 @@ a {
 
 .bronchitis__title {
   font-size: 3.6rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 0;
 }
 
@@ -467,8 +508,25 @@ a {
   line-height: 1;
 }
 
+.bronchitis__paragraph {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #ccc;
+}
+
 .bronchitis .link-arrow {
   float: right;
+}
+
+@media screen and (min-width: 769px) {
+  .bronchitis .block__heading {
+    font-size: 4.8rem;
+  }
+
+  .bronchitis__title {
+    font-size: 2.8rem;
+    font-weight: 600;
+  }
 }
 
 /* Full Page Section  */
