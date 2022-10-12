@@ -554,7 +554,7 @@ a {
 
 /* Causes  */
 .causes {
-  padding-bottom: 6rem;
+  padding-bottom: 10rem;
 }
 
 .causes__header {
@@ -654,4 +654,9 @@ a {
   width: 250px;
   height: 250px;
   border-radius: 50%;
+}
+
+.about {
+  height: 750px;
+  max-height: 100vh;
 }
