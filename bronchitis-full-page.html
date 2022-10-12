@@ -10,6 +10,9 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- Main Stylesheet  -->
     <link rel="stylesheet" href="./styles/main.css" />
 
@@ -37,7 +40,7 @@
     <!-- Bronchitis Full Page  -->
     <section class="block block--dark full-page">
       <div class="grid grid--1x2 container">
-        <div>
+        <div data-aos="fade-up-right">
           <header class="full-page__header">
             <h3 class="full-page__title">Bronchitis</h3>
             <p class="full-page__subtitle">bron·​chi·​tis | brän-ˈkī-təs</p>
@@ -57,7 +60,11 @@
           </p>
         </div>
 
-        <img src="assets/img/bronchitis.png" alt="Bronchitis" />
+        <img
+          data-aos="fade-left"
+          src="assets/img/bronchitis.png"
+          alt="Bronchitis"
+        />
       </div>
     </section>
 
@@ -69,7 +76,7 @@
           <div class="accent-border"></div>
         </header>
 
-        <div class="grid grid--1x3 causes__images">
+        <div class="grid grid--1x3 causes__images" data-aos="flip-left">
           <img
             class="causes__img"
             src="assets/img/smoking.jpg"
@@ -90,7 +97,7 @@
     </section>
 
     <!-- Primary Symtoms - Full Page  -->
-    <section class="block symptoms">
+    <section class="block symptoms" data-aos="fade-up">
       <div class="container">
         <header class="symptoms__header">
           <h3 class="symptoms__heading">
@@ -125,7 +132,7 @@
     </section>
 
     <!-- Risks Factors  -->
-    <div class="block block--accent risks">
+    <div class="block block--accent risks" data-aos="fade-left">
       <div class="container">
         <header class="risks__header">
           <h3 class="risks__heading">Risks Factors</h3>
@@ -165,7 +172,7 @@
     </div>
 
     <!-- Complication Section - Full Page  -->
-    <section class="block complication">
+    <section class="block complication" data-aos="flip-up">
       <div class="container">
         <header class="complication__header">
           <h3 class="complication__heading">Complications</h3>
@@ -269,7 +276,7 @@
             traveling.
           </p>
 
-          <div class="grid grid--1x3 prevention__images">
+          <div class="grid grid--1x3 prevention__images" data-aos="zoom-out">
             <img
               class="prevention__img"
               src="assets/img/quit_smoking.jpg"
@@ -291,7 +298,7 @@
     </section>
 
     <!-- Treatment and Care - Full Page -->
-    <section class="block treatment">
+    <section class="block treatment" data-aos="zoom-in-up">
       <div class="container">
         <header class="treatment__header">
           <h3 class="treatment__heading">Treatment and Care</h3>
@@ -459,5 +466,10 @@
         </section>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
