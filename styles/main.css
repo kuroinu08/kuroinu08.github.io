@@ -631,3 +631,11 @@ a {
     order: 2;
   }
 }
+
+/* Footer  */
+.footer {
+  padding: 2rem 0;
+  text-align: center;
+  background: var(--color-dark);
+  color: #d3d3d3;
+}
