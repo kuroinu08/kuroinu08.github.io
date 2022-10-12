@@ -377,3 +377,56 @@ a {
 .transition {
   text-align: center;
 }
+
+/* Features  */
+.feature {
+  gap: 4rem 2rem;
+  margin: 12rem 0;
+}
+
+.feature:first-of-type {
+  margin-top: 6rem;
+}
+
+.feature__heading {
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .feature:nth-of-type(odd) .feature__content {
+    order: 1;
+  }
+}
+
+/* Facts  */
+.fact {
+  height: 479px;
+  border-radius: 85px 85px 0px 0px;
+}
+
+.fact__container {
+  position: relative;
+  padding: 4.2rem 0;
+}
+
+.fact__heading {
+  font-size: 4.8rem;
+  line-height: 72px;
+}
+
+.fact__paragraph {
+  font-size: 2.4rem;
+  line-height: 36px;
+}
+
+.fact__logo {
+  position: absolute;
+  top: -25rem;
+  left: -10rem;
+  width: 367px;
+  height: 346px;
+}
+
+.block__header .fact__heading {
+  color: #fff;
+}
