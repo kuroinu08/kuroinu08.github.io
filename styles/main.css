@@ -92,9 +92,9 @@ h3 {
   border-bottom: 5px solid var(--color-primary);
 }
 
-.nav__item:last-of-type {
+/* .nav__item:last-of-type {
   border-bottom: none;
-}
+} */
 
 .nav__item > a {
   color: var(--color-headings);
@@ -638,4 +638,20 @@ a {
   text-align: center;
   background: var(--color-dark);
   color: #d3d3d3;
+}
+
+/* Team Members  */
+.team__content {
+  margin-top: 5rem;
+}
+.team__images {
+  margin: 4rem 0;
+  text-align: center;
+  justify-self: center;
+}
+
+.team__img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
 }
