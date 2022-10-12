@@ -140,10 +140,6 @@ h3 {
   padding: var(--padding-vertical) 2rem;
 }
 
-.block.overview {
-  padding: 5rem 0;
-}
-
 .block__header {
   margin-bottom: 4rem;
 }
@@ -203,9 +199,9 @@ h3 {
   color: #fff;
 }
 
-.block__content {
-  padding: 5rem 26rem;
-  text-align-last: left;
+.block--grey {
+  background: var(--color-greay);
+  color: #2e2e2e;
 }
 
 .block__content--grey {
@@ -397,6 +393,19 @@ a {
   .feature:nth-of-type(odd) .feature__content {
     order: 1;
   }
+}
+
+.overview {
+  /* height: 250px; */
+  border-radius: var(--border-radius);
+}
+
+.block.overview {
+  padding: 5rem 0;
+}
+
+.overview__content .container {
+  padding: 5rem;
 }
 
 /* Facts  */
