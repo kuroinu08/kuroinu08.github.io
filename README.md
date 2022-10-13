@@ -10,4 +10,8 @@ of the respiratory system's illnesses, bronchitis; It will clearly
 outline and communicate the disease's adverse effects, symptoms,
 classification, and treatment.
 
+
+Made with pure HTML, CSS and JavaScript ❣️
+--
+
 ### all rights reserved 2022.
